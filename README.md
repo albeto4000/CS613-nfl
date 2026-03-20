@@ -12,16 +12,16 @@ Step 1 - Install dependencies:
 
 Step 2 - Generate the dataset (only needs to be done once):
 
-    python3 generate_data.py
+    Run the nfl_scraper.ipynb notebook
 
     This pulls data from nflverse for the 2022-2025 seasons and saves
-    it as nfl_data.csv in the same folder.
+    it as nfl_data.csv in the data folder.
 
 Step 3 - Run the model:
 
     python3 logistic_regression.py
 
-    Make sure nfl_data.csv is in the same folder as the script.
+    Make sure nfl_data.csv is in the data folder, which should be in the same directory as the program file.
     The script will automatically find it.
 
 Step 4 - Check the outputs:
