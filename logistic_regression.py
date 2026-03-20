@@ -335,8 +335,8 @@ def main():
     print("  NFL Winner Prediction — Logistic Regression From Scratch")
     print("=" * 60)
 
-    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "nfl_data.csv")
-
+    data_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/nfl_data.csv")
+    
     print("\n[1] Loading data...")
     X, y, feature_names = load_and_prepare_data(data_path)
 
